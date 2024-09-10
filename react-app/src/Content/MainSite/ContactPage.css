@@ -1,0 +1,15 @@
+.contactPageForm {
+    max-width: none;
+    border: none;
+    background-color: #ffffff;
+    padding: 24px;
+}
+.contactPageButton {
+    background-color:#9999CC;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.contactPageButton:hover {
+    background-color:#7979d3;
+
+}

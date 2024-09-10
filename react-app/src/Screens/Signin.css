@@ -1,0 +1,10 @@
+﻿.signin-button {
+    font-size: 20px;
+    width: 50%;
+    background-color: #73718e;
+    margin: 5px auto auto;
+}
+.signin-button:hover {
+
+    background-color: #363543;
+}

@@ -1,0 +1,95 @@
+/*.myAccountContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*   */
+/*}*/
+/*.personCard {*/
+/*    margin-left: 13.5%;*/
+/*    margin-top: 1rem;*/
+/*    margin-bottom: 1rem;*/
+/*    padding: 25px;*/
+/*}*/
+/*.addUserFormContainer {*/
+/*    opacity: 0;*/
+/*    max-height: 0;*/
+/*    overflow: hidden;*/
+/*    transition: max-height 0.5s ease, opacity 0.5s ease;*/
+/*}*/
+
+/*.addUserFormContainer.show {*/
+/*    opacity: 1;*/
+/*    max-height: 700px; !* Adjust this value based on the form's height *!*/
+/*}*/
+/*.button-clicked {*/
+/*    background-color: #0056b3 !important; !* Change to a darker blue for click effect *!*/
+/*    transition: background-color 0.2s ease;*/
+/*}*/
+/*.success-message {*/
+/*    color: green;*/
+/*    font-size: 16px;*/
+/*    margin-top: 1rem;*/
+/*    margin-left: 15%;*/
+/*}*/
+/*.just-button {*/
+/*    width: 200px;*/
+/*    height: 50px; */
+/*    font-size: 25px;*/
+/*    margin-top: 1rem;*/
+/*    margin-left: 15%;*/
+/*    background-color: #4f7197;*/
+/*    padding: 0;*/
+/*}*/
+/*.just-button:hover {*/
+/*    background-color: #3498db;*/
+/* */
+/*}*/
+
+.myAccountContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.personCard {
+    margin-left: 13.5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 25px;
+}
+
+.addUserFormContainer {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.addUserFormContainer.show {
+    opacity: 1;
+    max-height: 700px; /* Adjust this value based on the form's height */
+}
+
+.button-clicked {
+    background-color: #0056b3 !important; /* Change to a darker blue for click effect */
+    transition: background-color 0.2s ease;
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+.just-button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-left: 15%;
+    background-color: #4f7197;
+    padding: 0;
+}
+
+.just-button:hover {
+    background-color: #3498db;
+}

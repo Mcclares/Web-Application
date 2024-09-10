@@ -1,0 +1,14 @@
+
+/* styles.css */
+
+.Name {
+    
+      background-color: #c0bcc1;
+    border-style: inset;
+    border: 2px solid black;
+    margin: -1px;
+    height: 61px;
+}
+h1{
+    padding-left: 20px;
+}

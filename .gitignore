@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+react-app/public/Models/*
+
+# dependencies
+react-app/node_modules
+react-app/.pnp
+react-app/.pnp.js
+react-app/nginx
+react-app/.env.*
+
+# testing
+react-app/coverage
+
+# production
+react-app/build
+
+# misc
+react-app/.DS_Store
+react-app/.env.local
+react-app/.env.development.local
+react-app/.env.test.local
+react-app/.env.production.local
+
+react-app/npm-debug.log*
+react-app/yarn-debug.log*
+react-app/yarn-error.log*
+
+backend/AccountStoreApi/.idea
+backend/AccountStoreApi/bin
+backend/AccountStoreApi/published
+
+
+# Общие исключения
+
+backend/AccountStoreApi/obj/
+backend/AccountStoreApi/*.user
+backend/AccountStoreApi/*.suo
+backend/AccountStoreApi/*.userosscache
+backend/AccountStoreApi/*.sln.docstates
+
+# Пакеты NuGet
+backend/AccountStoreApi/*.nupkg
+backend/AccountStoreApi/*.snupkg
+backend/AccountStoreApi/*.nuspec
+backend/AccountStoreApi/packages/
+backend/AccountStoreApi/project.lock.json
+backend/AccountStoreApi/project.fragment.lock.json
+backend/AccountStoreApi/artifacts/
+
+# Компоненты конфигурации
+backend/AccountStoreApi//appsettings.*.json
+backend/AccountStoreApi/secret.json
+
+# Лог-файлы
+backend/AccountStoreApi/*.log
+
+# Профили публикации веб-сайта
+backend/AccountStoreApi/published/
+
+# Файлы и директории IDE
+backend/AccountStoreApi/.vscode/
+backend/AccountStoreApi/.idea/
+backend/AccountStoreApi/*.swp
+backend/AccountStoreApi/*.sln.ide/
+backend/AccountStoreApi/_ReSharper*/

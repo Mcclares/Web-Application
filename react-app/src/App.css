@@ -1,0 +1,54 @@
+.App {
+    background-color: #272426;
+}
+/* .screen-body {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  background-color: #fbe6e2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  z-index: -1;
+}
+/* Стили экрана компьютера */
+/* .computer-screen {
+  width: 95%; /* Ширина экрана на 95% от родительского контейнера */
+  /* max-width: 1200px; 
+  height: 90vh; 
+  background-color: #2d2b2b;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  margin: auto; 
+}   */
+
+
+/* Медиа-запросы для адаптивности */
+/* @media screen and (max-width: 768px) {
+
+} */
+
+
+/* Элементы имитирующие кнопки на экране */
+/* .screen-body::before,
+.screen-body::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.screen-body::before {
+  top: 10px;
+  left: 10px;
+}
+
+.screen-body::after {
+  top: 10px;
+  right: 10px;
+} */

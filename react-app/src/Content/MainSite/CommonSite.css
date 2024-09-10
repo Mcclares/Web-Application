@@ -1,0 +1,120 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    
+    color: rgb(157, 99, 78);
+    background-color: #fff;
+    border-color: none;
+}
+
+.nav-tabs .nav-link {
+    margin-left: 5px;
+    color: #fff;
+   
+}
+
+
+.nav-tabs .nav-link:hover{
+    color: rgb(236, 236, 236);
+}
+
+
+.contact-tab {
+    position: relative;
+    background-image: url('./Images/Logo2.png'); /* Убедитесь, что путь к изображению правильный */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 100vh; Задает высоту контейнера на весь видимый экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвет текста для контраста с фоном */
+}
+
+.contact-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background: rgba(0, 0, 0, 0.5); /* Черный полупрозрачный слой */
+    z-index: 1;
+}
+
+.contact-tab > * {
+    position: relative;
+    z-index: 2; /* Обеспечивает, что контент будет выше наложенного слоя */
+}
+
+.partnerShip-tab {
+    position: relative;
+    background-image: url('./Images/Partnerlus.png'); /* Убедитесь, что путь к изображению правильный */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    height: 70vh; /* Задает высоту контейнера на весь видимый экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвет текста для контраста с фоном */
+}
+
+.partnerShip-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Черный полупрозрачный слой */
+    z-index: 1;
+}
+
+.partnerPageLinks {
+    
+}
+
+.partnerShip-tab > * {
+    position: relative;
+    z-index: 2; /* Обеспечивает, что контент будет выше наложенного слоя */
+}
+
+.about-tab {
+    position: relative;
+    background-image: url('./Images/about.jpg'); /* Убедитесь, что путь к изображению правильный */
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 100%;
+    height: 80vh; /* Задает высоту контейнера на весь видимый экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвет текста для контраста с фоном */
+}
+
+.about-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Черный полупрозрачный слой */
+    z-index: 1;
+}
+
+.about-tab > * {
+    position: relative;
+    z-index: 2; /* Обеспечивает, что контент будет выше наложенного слоя */
+}
+
+.custom-form { /*класс для формы*/
+    max-width: none;
+}
+
+#react-aria4302771968-\\:r0\\:-tab-Partnership.nav-link {
+    
+    color: white;
+}

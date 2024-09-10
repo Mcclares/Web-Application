@@ -1,0 +1,42 @@
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: #b7b7b7;
+  padding: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  font-size: 15px;
+  color: #000000;
+  margin: 0 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  color: #000000;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 14px;
+}

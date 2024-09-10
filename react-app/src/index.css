@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./Content/Components/Assets/Fonts/w95fa.woff') format('woff'),
+       url('./Content/Components/Assets/Fonts/W95FA.otf') format('otf'),
+       url('./Content/Components/Assets/Fonts/w95fa.woff2') format('woff2');;
+  /* Укажите корректный путь к вашему файлу шрифта */
+  /* Дополнительные стили по необходимости, например, font-weight и font-style */
+}
+
+body {
+    background-color: #272426;
+    
+}
+html {
+    background-color: #272426;
+}
+

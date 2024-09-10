@@ -1,0 +1,19 @@
+.typing-text {
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  animation: caret 0.75s steps(1) infinite;
+  width: 63.5rem;
+  margin: auto;
+  color: white;
+  margin-top: 200px;
+  font-size: 70px
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}

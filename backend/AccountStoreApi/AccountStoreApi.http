@@ -1,0 +1,7 @@
+@AccountStoreApi_HostAddress = http://localhost:5174
+
+GET {{AccountStoreApi_HostAddress}}/api/accounts
+GET {{AccountStoreApi_HostAddress}}/accounts/User
+Accept: application/json
+
+###

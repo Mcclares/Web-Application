@@ -1,0 +1,101 @@
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.file-table th, .file-table td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.file-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.file-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.file-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.folder-row {
+    cursor: pointer;
+}
+.file-row {
+    cursor: pointer;
+}
+.folder-row:hover {
+    background-color: #e1e1e1;
+}
+
+.file-row:hover {
+    background-color: #f1f1f1;
+}
+.class-table-buttons {
+    font-size: 10px;
+    background-color: rgb(119, 59, 59);
+}
+.class-table-buttons:hover {
+ 
+    background-color: rgb(183, 63, 63);
+}
+.table-back-button {
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    position: relative;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+.dropzone.dragging {
+    background-color: #e3f2fd;
+}
+
+.dropzone-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-size: 18px;
+    color: #333;
+}
+.folders-table {
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.delete-table-buttons {
+    font-size: 17px;
+    background-color: red;
+}
+.delete-table-buttons:hover {
+
+    background-color: #af5c5c;
+}
+.create-button {
+    background-color: #4f7197;
+}
+.create-button:hover {
+    background-color: #3498db;
+}
+.cancel-button {
+    background-color: #009879;
+}
+.cancel-button:hover {
+    background-color: #004a37;
+}
