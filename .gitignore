@@ -3,6 +3,7 @@
 react-app/public/Models/*
 react-app/.vscode
 react-app/.idea
+react-app/Dockerfile
 
 # dependencies
 react-app/node_modules
