@@ -49,7 +49,7 @@ backend/AccountStoreApi/project.fragment.lock.json
 backend/AccountStoreApi/artifacts/
 
 # Компоненты конфигурации
-backend/AccountStoreApi//appsettings.*.json
+backend/AccountStoreApi/appsettings.*.json
 backend/AccountStoreApi/secret.json
 
 # Лог-файлы
